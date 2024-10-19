@@ -44,9 +44,9 @@ export default function Landing() {
           </section>
 
           {/* How It Works Section */}
-          <section className="w-full py-10">
+          <section className="w-full py-10 pb-40">
             <h2 className="text-3xl font-semibold pt-40 pb-10 text-gray-800 text-center mb-8">
-              How Does Scammer Jammer Work?
+              How Does Scammer Jammer Work
             </h2>
             <div className="flex flex-wrap justify-center gap-8">
               {/* Feature 1 */}
@@ -76,10 +76,10 @@ export default function Landing() {
           {/* Call-to-Action Section */}
           <section className="w-full py-12 text-center">
             <h2 className="text-3xl font-bold text-gray-800 mb-6">
-              Ready to Jam the Scammers?
+             Join Us Now In Our Journey To Rid The World Scammers
             </h2>
             <Link href="/tryusnow" className="text-blue-600 border border-blue-600 px-6 py-3 rounded-md hover:bg-blue-600 hover:text-white transition">
-              Try Scammer Jammer Now
+              Try Us Here
             </Link>
           </section>
         </div>
