@@ -11,10 +11,10 @@ export default function Landing() {
         <div className="mx-auto max-w-content-width px-md flex flex-col">
           
           {/* Main Section */}
-          <section className="min-h-fit flex flex-col-reverse lg:flex-row items-center text-center lg:text-left px-4 pt-40 gap-10">
+          <section className="min-h-fit flex flex-col lg:flex-row items-center text-center lg:text-left px-4 pt-40 gap-10">
             {/* Text Content */}
-            <div className="flex-1 pb-20  ">
-              <h1 className="text-5xl font-bold text-gray-800 mb-6">
+            <div className="flex-1 pb=  ">
+              <h1 className="animate-in fade-in-5 duration-1000 text-5xl font-bold text-gray-800 mb-6">
                 Destroy Scammers In Their Own Game.   
               </h1>   
               <p className="text-lg text-gray-600 mb-8">
