@@ -19,6 +19,12 @@ export const Nav = () => {
 
       {/* Navigation Links */}
       <div className={"ml-auto flex items-center gap-1"}>
+
+        {/* Login Page */}
+        <Link href="/logic" className="ml-4 text-base font-medium hover:underline">
+          Login
+        </Link>
+
         {/* About Us Page */}
         <Link href="/about" className="ml-4 text-base font-medium hover:underline">
           About
