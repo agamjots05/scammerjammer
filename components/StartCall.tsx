@@ -28,7 +28,7 @@ export default function StartCall() {
                 exit: { scale: 0.5 },
               }}
             >
-              <Button
+              <Button 
                 className={"z-50 flex items-center gap-1.5"}
                 onClick={() => {
                   connect()
