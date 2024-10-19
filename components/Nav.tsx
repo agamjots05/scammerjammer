@@ -2,9 +2,6 @@
 
 import Link from "next/link";
 import HumeLogo from "./logos/Hume"; // Replace with your logo
-import { Button } from "./ui/button"; // Assuming you're using a custom button component
-import Github from "./logos/GitHub"; // Optional, you can remove if not needed
-import pkg from '@/package.json'; // If you still need the GitHub button
 
 export const Nav = () => {
   return (
