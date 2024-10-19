@@ -29,7 +29,7 @@ export function AuthProvider({ children }) {
         } else { // user has logged off
             setCurrentUser(null);
             setUserLoggedIn(false);
-        }
+        }   
         setLoading(false);
     }
 

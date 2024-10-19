@@ -41,7 +41,7 @@ export const Nav = ({ replace }: { replace: boolean }) => {
 
         {/* About Us Page */}
         <Link href="/about" className="ml-4 text-base font-medium hover:underline">
-          About
+          About 
         </Link>
 
         {/* Try Us Now Page */}
