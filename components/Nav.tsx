@@ -3,7 +3,7 @@
 import Link from "next/link";
 import HumeLogo from "./logos/Hume"; // Replace with your logo
 
-export const Nav = () => {
+export const Nav = ({ replace }: { replace: boolean }) => {
   return (
     <div
       className={
@@ -20,10 +20,24 @@ export const Nav = () => {
       {/* Navigation Links */}
       <div className={"ml-auto flex items-center gap-1"}>
 
-        {/* Login Page */}
-        <Link href="/logic" className="ml-4 text-base font-medium hover:underline">
-          Login
+        {/* Conditionally render Login Page based on the 'replace' prop */}
+        {!replace && (
+          <Link href="/login" className="ml-4 text-base font-medium hover:underline">
+            Login
+          </Link>        
+        )}
+
+        { /* Register */ }
+        <Link href='/register' className="ml-4 text-base font-medium hover:underline">
+          Register
         </Link>
+
+        {replace && (
+          <Link href="/logout" className="ml-4 text-base font-medium hover:underline">
+            Log out
+          </Link>
+        )}
+
 
         {/* About Us Page */}
         <Link href="/about" className="ml-4 text-base font-medium hover:underline">
